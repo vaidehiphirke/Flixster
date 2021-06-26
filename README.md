@@ -34,7 +34,7 @@ Portrait orientation mode:
 
 Landscape orientation mode:
 
-<img src='https://imgur.com/a/0vRisif.gif' title='Portrait Walkthrough' width='' alt='Portrait Walkthrough' />
+<img src='https://imgur.com/qHBZQls' title='Portrait Walkthrough' width='' alt='Portrait Walkthrough' />
 
 GIFs created with [Kap](https://getkap.co/).
 
