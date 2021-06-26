@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 Portrait orientation mode:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://drive.google.com/file/d/1EnVzwhixNcthvoh2j0ttSoBuUXP-zSFn/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Landscape orientation mode:
 
