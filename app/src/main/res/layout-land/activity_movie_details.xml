@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/darkertheaterwallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.flixster.MovieDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:text="Movie Title"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFC107"
+        android:textColorLink="#FF9800"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivPlayer"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="301dp"
+        android:layout_height="234dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="416dp"
+        android:layout_marginLeft="416dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="-153dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <RatingBar
+        android:id="@+id/rbVoteAverage"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPlayer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="416dp"
+        android:layout_marginLeft="416dp"
+        android:layout_marginTop="-229dp"
+        android:numStars="5"
+        android:progressBackgroundTint="#9E9E9E"
+        android:progressTint="#FFC107"
+        android:stepSize="0.5" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="147dp"
+        android:layout_height="85dp"
+        android:layout_alignTop="@+id/ivPlayer"
+        android:layout_alignBottom="@+id/ivPlayer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="462dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#00955B5B"
+        android:foregroundGravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/playbutton" />
+
+
+</RelativeLayout>
