@@ -30,11 +30,11 @@ Here's a walkthrough of implemented user stories:
 
 Portrait orientation mode:
 
-<img src='https://imgur.com/a/Vm8azIZ.gif' title='Portrait Walkthrough' width='' alt='Portrait Walkthrough' />
+<img src='http://i.imgur.com/a/Vm8azIZ.gif' title='Portrait Walkthrough' width='' alt='Portrait Walkthrough' />
 
 Landscape orientation mode:
 
-<img src='imgur.com/qHBZQls.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/qHBZQls.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIFs created with [Kap](https://getkap.co/).
 
